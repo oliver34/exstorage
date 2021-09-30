@@ -1,7 +1,7 @@
 {
-  "name": "localstore",
+  "name": "exstorage",
   "version": "1.0.1",
-  "description": "a localStorage package",
+  "description": "a storage expand",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliver34/localStore.git"
+    "url": "git+https://github.com/oliver34/exstorage.git"
   },
   "keywords": [
     "localStorage",
@@ -26,9 +26,9 @@
   "author": "oliver34",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oliver34/localStore/issues"
+    "url": "https://github.com/oliver34/exstorage/issues"
   },
-  "homepage": "https://github.com/oliver34/localStore#readme",
+  "homepage": "https://github.com/oliver34/exstorage#readme",
   "devDependencies": {
     "prettier": "^2.4.1",
     "tslint": "^6.1.3",
