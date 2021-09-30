@@ -1,0 +1,38 @@
+{
+  "name": "localstore",
+  "version": "1.0.0",
+  "description": "a localStorage package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver34/localStore.git"
+  },
+  "keywords": [
+    "localStorage",
+    "store"
+  ],
+  "author": "oliver34",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliver34/localStore/issues"
+  },
+  "homepage": "https://github.com/oliver34/localStore#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.4.3"
+  }
+}
